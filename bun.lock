@@ -1,0 +1,19 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "wuonix",
+      "dependencies": {
+        "@jmnuf/results": "^1.0.0",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+  },
+  "packages": {
+    "@jmnuf/results": ["@jmnuf/results@1.0.0", "", {}, "sha512-r4obM//16KWM3jcAXQDKc3U6YRvZb1/yFFdFy2ZaKiQKRWZdJjVk8yBgTCD0zkznqbYXtQ6mHIjUzozUJNo68w=="],
+
+    "typescript": ["typescript@5.8.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ=="],
+  }
+}

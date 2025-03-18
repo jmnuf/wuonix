@@ -1,0 +1,23 @@
+{
+  "name": "@jmnuf/wuonix",
+  "module": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "bun test",
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "@types/bun": "^1.1.10"
+  },
+  "dependencies": {
+    "@jmnuf/results": "^1.0.0"
+  }
+}
