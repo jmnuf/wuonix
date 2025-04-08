@@ -1,9 +1,9 @@
 import type { Result } from "@jmnuf/results";
 import { Res } from "@jmnuf/results";
 
-const SimpSignalSymbol = Symbol("wuonix::SimpSignal");
-const BaseSignalSymbol = Symbol("wuonix::SimpSignal.Base");
-const ComputedSignalSymbol = Symbol("wuonix::SimpSignal.Computed");
+const SimpSignalSymbol = Symbol.for("@jmnuf/wuonix::SimpSignal");
+const BaseSignalSymbol = Symbol.for("@jmnuf/wuonix::SimpSignal.Base");
+const ComputedSignalSymbol = Symbol.for("@jmnuf/wuonix::SimpSignal.Computed");
 
 export type BaseSimpSignal<T> = {
   isComputed: false;
