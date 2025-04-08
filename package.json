@@ -1,6 +1,6 @@
 {
   "name": "@jmnuf/wuonix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "module": "dist/index.js",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -13,6 +13,12 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json && rolldown src/*.ts -d dist/ -s inline",
     "test": "bun test"
+  },
+  "author": "JM <jose.m.nufio.0@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmnuf/wuonix"
   },
   "devDependencies": {
     "@types/bun": "^1.1.10",
