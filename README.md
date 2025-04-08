@@ -2,8 +2,13 @@
 
 ## Simple Signals
 
-A typescript library for creating signals.
-Use 
+A relatively simple typescript library for creating signals. Signals are cool and this library is just for managing non-complexly built state in a relatively straight-forward fashion.
+
+There is a base value signal for keeping track of a value and also you can get a computed signal derived from a base value signal that will get re-computed whenever the base value signal is updated.
+
+Maybe in the future creating a computed signal based on multiple signals will be included, undecided as of now.
+
+Usage:
 
 ```ts
 import { createSignal } from "@jmnuf/wuonix";
